@@ -1,0 +1,8 @@
+version: '3'
+services:
+  takumasql:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8090:8090"

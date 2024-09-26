@@ -1,0 +1,10 @@
+[package]
+name = "takumasql"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "takumasql"
+path = "src/cmd/main.rs"
