@@ -1,3 +1,4 @@
 fn main() {
-    println!("Hello, TakumaSQL!");
+    new_table_router();
+    new_record_router();
 }
